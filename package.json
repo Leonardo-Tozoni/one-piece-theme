@@ -14,6 +14,10 @@
     "vscode": "^1.22.0"
   },
   "categories": ["Themes"],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "themes": [
       {
@@ -25,6 +29,16 @@
         "label": "One Piece Light",
         "uiTheme": "vs",
         "path": "./themes/one-piece-light.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "one-piece-theme.enableJollyRoger",
+        "title": "One Piece: Enable Jolly Roger"
+      },
+      {
+        "command": "one-piece-theme.disableJollyRoger",
+        "title": "One Piece: Disable Jolly Roger"
       }
     ]
   },

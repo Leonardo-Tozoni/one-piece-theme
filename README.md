@@ -21,6 +21,13 @@ Embark on your coding adventure with the **One Piece Theme** - a vibrant VS Code
 
 ### ✨ Features
 
+- **🏴‍☠️ Jolly Roger Overlay (Optional, Auto-Setup):**
+  - Straw Hat Pirates Jolly Roger image displayed as an overlay in the bottom right corner
+  - Subtle watermark that enhances immersion without interfering with your work
+  - Semi-transparent with hover effects
+  - **Automatic setup** - just click "Yes" when prompted on first install!
+  - Uses online image from GitHub (always up-to-date)
+
 - **Two Theme Variants:**
   - 🌙 **One Piece Dark** - Sail through the night with deep ocean blues, treasure gold accents, and adventure-inspired colors
   - ☀️ **One Piece Light** - Bask in the Thousand Sunny's glow with bright, warm colors perfect for daytime coding
@@ -63,6 +70,21 @@ Embark on your coding adventure with the **One Piece Theme** - a vibrant VS Code
 4. Press `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T` and select:
    - **One Piece Dark** or
    - **One Piece Light**
+5. A popup will ask if you want to add the Jolly Roger overlay
+6. Click **"Sim, adicionar!"** (Yes, add it!)
+7. The extension will:
+   - Install "Custom CSS and JS Loader" if needed
+   - Create the CSS file automatically
+   - Configure everything for you
+8. Click **"Habilitar e Reiniciar"** (Enable and Restart)
+9. Done! The Jolly Roger will appear in the bottom right corner 🏴‍☠️
+
+#### Manually Enable/Disable Jolly Roger
+
+- **Enable**: Press `Ctrl+Shift+P` → **"One Piece: Enable Jolly Roger"**
+- **Disable**: Press `Ctrl+Shift+P` → **"One Piece: Disable Jolly Roger"**
+
+**Note:** The extension uses "Custom CSS and JS Loader" which may show a "corrupted installation" warning. This is normal and safe - you can click "Don't show again".
 
 #### Manual Installation
 
@@ -97,10 +119,16 @@ Found a bug or have a suggestion? Feel free to:
 
 ### 📝 Changelog
 
+#### Version 2.0.0
+- 🏴‍☠️ **NEW:** Automatic Jolly Roger overlay setup - just click "Yes"!
+- ⚡ Auto-installs and configures "Custom CSS and JS Loader"
+- 🌐 Uses online image from GitHub (always up-to-date, no local files needed)
+- 🎨 Improved theme integration and immersion with visual watermark
+- 📚 Enhanced documentation with automated setup instructions
+
 #### Version 1.1.0
 - ✨ Added One Piece Light theme variant
 - 🎨 Enhanced Dark theme with more cohesive One Piece-inspired colors
-- 🏴‍☠️ Added Straw Hat Jolly Roger assets
 - 📚 Improved documentation
 
 #### Version 1.0.0
@@ -125,6 +153,13 @@ MIT License - see [LICENSE](LICENSE) file for details
 Embarque na sua aventura de programação com o **One Piece Theme** - um tema vibrante para VS Code inspirado no lendário anime! Seja navegando pelo código durante o dia ou queimando a meia-noite, temos você coberto com temas Escuro e Claro.
 
 ### ✨ Recursos
+
+- **🏴‍☠️ Overlay da Jolly Roger (Opcional, Configuração Automática):**
+  - Imagem da Jolly Roger dos Piratas do Chapéu de Palha exibida como overlay no canto inferior direito
+  - Marca d'água sutil que aumenta a imersão sem interferir no seu trabalho
+  - Semi-transparente com efeitos de hover
+  - **Configuração automática** - apenas clique "Sim" quando perguntado na primeira instalação!
+  - Usa imagem online do GitHub (sempre atualizada)
 
 - **Duas Variantes de Tema:**
   - 🌙 **One Piece Dark** - Navegue pela noite com azuis oceânicos profundos, acentos de ouro do tesouro e cores inspiradas na aventura
@@ -168,6 +203,21 @@ Embarque na sua aventura de programação com o **One Piece Theme** - um tema vi
 4. Pressione `Ctrl+K Ctrl+T` e selecione:
    - **One Piece Dark** ou
    - **One Piece Light**
+5. Um popup perguntará se você quer adicionar o overlay da Jolly Roger
+6. Clique em **"Sim, adicionar!"**
+7. A extensão vai:
+   - Instalar "Custom CSS and JS Loader" se necessário
+   - Criar o arquivo CSS automaticamente
+   - Configurar tudo para você
+8. Clique em **"Habilitar e Reiniciar"**
+9. Pronto! A Jolly Roger aparecerá no canto inferior direito 🏴‍☠️
+
+#### Ativar/Desativar Jolly Roger Manualmente
+
+- **Ativar**: Pressione `Ctrl+Shift+P` → **"One Piece: Enable Jolly Roger"**
+- **Desativar**: Pressione `Ctrl+Shift+P` → **"One Piece: Disable Jolly Roger"**
+
+**Nota:** A extensão usa "Custom CSS and JS Loader" que pode mostrar um aviso de "instalação corrompida". Isso é normal e seguro - você pode clicar em "Não mostrar novamente".
 
 #### Instalação Manual
 
@@ -202,10 +252,16 @@ Encontrou um bug ou tem uma sugestão? Sinta-se livre para:
 
 ### 📝 Histórico de Alterações
 
+#### Versão 2.0.0
+- 🏴‍☠️ **NOVO:** Configuração automática do overlay da Jolly Roger - apenas clique "Sim"!
+- ⚡ Instala e configura automaticamente o "Custom CSS and JS Loader"
+- 🌐 Usa imagem online do GitHub (sempre atualizada, sem arquivos locais necessários)
+- 🎨 Integração e imersão do tema aprimoradas com marca d'água visual
+- 📚 Documentação melhorada com instruções de configuração automatizada
+
 #### Versão 1.1.0
 - ✨ Adicionada variante do tema One Piece Light
 - 🎨 Tema Escuro aprimorado com cores mais coesas inspiradas em One Piece
-- 🏴‍☠️ Adicionados assets da Jolly Roger do Chapéu de Palha
 - 📚 Documentação melhorada
 
 #### Versão 1.0.0
