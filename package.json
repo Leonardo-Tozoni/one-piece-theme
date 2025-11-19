@@ -1,11 +1,15 @@
 {
   "name": "one-piece-theme",
-  "description": "Dark Theme",
-  "displayName": "One Piece Dark",
-  "version": "1.0.0",
+  "description": "One Piece inspired themes - Set sail on the Grand Line with vibrant dark and light themes featuring treasure gold, ocean blues, and adventure colors!",
+  "displayName": "One Piece Theme",
+  "version": "2.0.0",
   "icon": "assets/icon.jpeg",
-  "keywords": ["theme", "anime", "one piece"],
+  "keywords": ["theme", "anime", "one piece", "dark theme", "light theme", "straw hat", "luffy", "pirate", "grand line"],
   "publisher": "LeonardoTozoni",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leonardo-Tozoni/one-piece-theme"
+  },
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -13,9 +17,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "one-piece",
+        "label": "One Piece Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/one-piece.json"
+      },
+      {
+        "label": "One Piece Light",
+        "uiTheme": "vs",
+        "path": "./themes/one-piece-light.json"
       }
     ]
   },
